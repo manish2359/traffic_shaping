@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+# Create a default config file
+echo "sleep_time 5" > "$SNAP_DATA/hello.conf"
+#snapctl set abc=12

@@ -1,0 +1,3 @@
+#!/bin/sh -e
+
+abc="$(snapctl get abc)"
